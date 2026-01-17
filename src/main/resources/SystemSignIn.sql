@@ -48,5 +48,5 @@ CREATE TABLE PasswordHistory (
 SELECT * FROM users;
 SELECT * FROM AuditLogs;
 
--- UPDATE Users SET TokenExpiration = DATE_SUB(NOW(), INTERVAL 11 MINUTE) WHERE Emails = 'elaeht2002@gmail.com';
--- UPDATE Users SET PenaltyTime = DATE_SUB(NOW(), INTERVAL 1 MINUTE) WHERE Emails = 'elaeht2002@gmail.com';
+-- UPDATE Users SET TokenExpiration = DATE_SUB(NOW(), INTERVAL 11 MINUTE) WHERE Emails = 'tu correo';
+-- UPDATE Users SET PenaltyTime = DATE_SUB(NOW(), INTERVAL 1 MINUTE) WHERE Emails = 'tu correo';
