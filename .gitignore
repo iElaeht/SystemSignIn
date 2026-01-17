@@ -1,0 +1,12 @@
+# --- IDE & Sistema ---
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.DS_Store
+# --- Maven & Compilación ---
+target/
+bin/
+*.class
